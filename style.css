@@ -1,1 +1,32 @@
-/* font-family: "Nunito", sans-serif;
+body {
+  font-family: "Nunito", sans-serif;
+}
+.thumbnail {
+  position: relative;
+}
+.caption {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+.caption h1 {
+  font-size: 72px;
+}
+.caption p {
+  font-size: 24px;
+}
+
+@media (max-width: 576px) {
+  .caption {
+    top: 20%;
+    line-height: 0px;
+  }
+  .caption h1 {
+    font-size: 29px;
+  }
+  .caption p {
+    font-size: 12px;
+  }
+}
