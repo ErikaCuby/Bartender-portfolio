@@ -18,23 +18,38 @@ body {
 }
 .caption h1 {
   font-size: 72px;
+  font-weight: 700;
 }
 .caption p {
   font-size: 24px;
 }
-.gallery-style {
-  margin: 40px 0;
-
-}
-.gallery-style img {
+.portfolio-img {
   border-radius: 12px;
   opacity: 0.9;
 }
+.header {
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.small-header {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87px;
+}
+.gallery-style {
+  margin: 40px 0;
+}
 .gallery-style p {
   margin-top: 25px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
+}
+.about-decription {
+    font-size: 18px;
+    margin: 40px 0;
 }
 
 @media (max-width: 576px) {
