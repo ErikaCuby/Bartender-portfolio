@@ -1,5 +1,6 @@
 :root {
   --main-font-color: #272142;
+  --branding-color: #e54346;
 }
 
 body {
@@ -25,31 +26,67 @@ body {
 }
 .portfolio-img {
   border-radius: 12px;
-  opacity: 0.9;
 }
 .header {
   font-size: 72px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 90px;
+  margin: 90px 0;
 }
 .small-header {
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 87px;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87px;
 }
 .gallery-style {
   margin: 40px 0;
 }
 .gallery-style p {
   margin-top: 25px;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
 }
+.gallery-style img {
+  opacity: 0.9;
+}
 .about-decription {
-    font-size: 18px;
-    margin: 40px 0;
+  font-size: 18px;
+  margin: 40px 0;
+}
+.more-about-me-btn {
+    background-color: var(--branding-color);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+      transition: all 150ms ease-in-out;
+}
+.more-about-me-btn:hover {
+    background-color: #c22f32;
+}
+.certificate {
+  border: 1px dashed #2721423a;
+  padding-top: 10px;
+  border-radius: 14px;
+  margin: 5px;
+}
+.company {
+  font-size: 24px;
+  font-weight: 700;
+}
+.course {
+    color: var(--branding-color);
+    font-weight: 700;
+}
+.grade {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 50%;
+}
+.date {
+  opacity: 0.8;
 }
 
 @media (max-width: 576px) {
