@@ -56,15 +56,15 @@ body {
   margin: 40px 0;
 }
 .more-about-me-btn {
-    background-color: var(--branding-color);
-    color: white;
-    padding: 12px 18px;
-    border-radius: 8px;
-    text-decoration: none;
-      transition: all 150ms ease-in-out;
+  background-color: var(--branding-color);
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
 }
 .more-about-me-btn:hover {
-    background-color: #c22f32;
+  background-color: #c22f32;
 }
 .certificate {
   border: 1px dashed #2721423a;
@@ -77,8 +77,8 @@ body {
   font-weight: 700;
 }
 .course {
-    color: var(--branding-color);
-    font-weight: 700;
+  color: var(--branding-color);
+  font-weight: 700;
 }
 .grade {
   font-size: 30px;
@@ -87,6 +87,15 @@ body {
 }
 .date {
   opacity: 0.8;
+}
+.contact-platform {
+  color: var(--branding-color);
+  font-weight: 700;
+}
+.contact {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--main-font-color);
 }
 
 @media (max-width: 576px) {
