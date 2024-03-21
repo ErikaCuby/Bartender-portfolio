@@ -1,5 +1,10 @@
+:root {
+  --main-font-color: #272142;
+}
+
 body {
   font-family: "Nunito", sans-serif;
+  color: var(--main-font-color);
 }
 .thumbnail {
   position: relative;
