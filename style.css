@@ -126,7 +126,7 @@ nav a:hover, nav li.active a {
 @media (max-width: 900px) {
     nav {
         padding: 15px;
-        font-size: 14px;
+        font-size: 10px;
     }
   .caption {
     top: 20%;
