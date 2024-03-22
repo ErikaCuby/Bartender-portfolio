@@ -150,6 +150,10 @@ footer a:hover {
   font-weight: 700;
   color: var(--branding-color);
 }
+  .under-footer a {
+    text-decoration: none;
+    color: var(--branding-color);
+  }
 
 @media (max-width: 900px) {
   nav {
@@ -211,8 +215,5 @@ footer a:hover {
   .under-footer {
     font-size: 12px;
   }
-  .under-footer a {
-    text-decoration: none;
-    color: var(--branding-color);
-  }
+
 }
