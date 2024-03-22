@@ -8,25 +8,27 @@ body {
   color: var(--main-font-color);
 }
 nav {
-    padding: 25px;
-    font-weight: 700;
+  padding: 25px;
+  font-weight: 700;
 }
 
 nav ul {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 nav li {
-    display: inline;
-    list-style: none;
-    margin-left: 10px;
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
 }
 nav a {
-    text-decoration: none;
-    color: var(--main-font-color);
+  text-decoration: none;
+  color: var(--main-font-color);
+  transition: all 150ms ease-in-out;
 }
-nav a:hover, nav li.active a {
-    color: var(--branding-color);
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 .thumbnail {
   position: relative;
@@ -122,12 +124,26 @@ nav a:hover, nav li.active a {
   text-decoration: none;
   color: var(--main-font-color);
 }
+footer {
+  padding: 10px;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 15px;
+  background-color: #272142;
+}
+footer a {
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+footer a:hover {
+  color: var(--branding-color);}
 
 @media (max-width: 900px) {
-    nav {
-        padding: 15px;
-        font-size: 10px;
-    }
+  nav {
+    padding: 15px;
+    font-size: 10px;
+  }
   .caption {
     top: 20%;
     line-height: 0px;
@@ -168,12 +184,16 @@ nav a:hover, nav li.active a {
     font-size: 15px;
   }
   .grade {
-  line-height: 120%;
-}
-.contact-platform {
+    line-height: 120%;
+  }
+  .contact-platform {
     font-size: 15px;
-}
-.contact {
-  font-size: 20px;
-}
+  }
+  .contact {
+    font-size: 20px;
+  }
+  footer {
+    font-size: 15px;
+    padding: 15px;
+  }
 }
