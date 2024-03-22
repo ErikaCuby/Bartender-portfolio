@@ -124,6 +124,7 @@ nav li.active a {
   text-decoration: none;
   color: var(--main-font-color);
 }
+
 footer {
   padding: 10px;
   margin: 20px;
@@ -137,7 +138,18 @@ footer a {
   transition: all 150ms ease-in-out;
 }
 footer a:hover {
-  color: var(--branding-color);}
+  color: var(--branding-color);
+}
+.under-footer {
+  font-size: 15px;
+  line-height: 10px;
+  text-align: center;
+  color: var(--main-font-color);
+}
+.under-footer span {
+  font-weight: 700;
+  color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   nav {
@@ -195,5 +207,8 @@ footer a:hover {
   footer {
     font-size: 15px;
     padding: 15px;
+  }
+  .under-footer {
+    font-size: 12px;
   }
 }
