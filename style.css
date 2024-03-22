@@ -7,6 +7,27 @@ body {
   font-family: "Nunito", sans-serif;
   color: var(--main-font-color);
 }
+nav {
+    padding: 25px;
+    font-weight: 700;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+nav a:hover, nav li.active a {
+    color: var(--branding-color);
+}
 .thumbnail {
   position: relative;
 }
@@ -102,7 +123,11 @@ body {
   color: var(--main-font-color);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
+    nav {
+        padding: 15px;
+        font-size: 14px;
+    }
   .caption {
     top: 20%;
     line-height: 0px;
