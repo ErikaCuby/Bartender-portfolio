@@ -33,6 +33,9 @@ nav li.active a {
 .thumbnail {
   position: relative;
 }
+.thumbnail img {
+  filter: brightness(0.6);
+}
 .caption {
   position: absolute;
   top: 30%;
@@ -78,6 +81,12 @@ nav li.active a {
 }
 .gallery-style img {
   opacity: 0.9;
+}
+.about-section {
+  margin: 40px 0 120px 0;
+}
+.about-header {
+  display: none;
 }
 .about-decription {
   font-size: 18px;
@@ -151,10 +160,10 @@ footer a:hover {
   font-weight: 700;
   color: var(--branding-color);
 }
-  .under-footer a {
-    text-decoration: none;
-    color: var(--branding-color);
-  }
+.under-footer a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
 
 @media (max-width: 900px) {
   nav {
@@ -184,15 +193,27 @@ footer a:hover {
   .gallery-style p {
     display: none;
   }
+  .about-section {
+    margin: 0;
+  }
+  .about-header {
+    display: block;
+    margin-top: 40px;
+  }
+  .profile-photo {
+    border-radius: 50%;
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
   .small-header {
-    text-align: center;
-    font-size: 29px;
-    line-height: 27px;
+    display: none;
   }
   .about-decription {
     text-align: center;
     font-size: 14px;
-    margin: 30px 0;
+    margin: 50px 0;
+    opacity: 0.8;
   }
   .more-about-me-btn {
     display: block;
@@ -216,5 +237,4 @@ footer a:hover {
   .under-footer {
     font-size: 12px;
   }
-
 }
