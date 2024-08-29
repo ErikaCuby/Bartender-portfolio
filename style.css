@@ -6,6 +6,8 @@
 body {
   font-family: "Nunito", sans-serif;
   color: var(--main-font-color);
+  padding: 0;
+  margin: 0;
 }
 nav {
   padding: 25px;
@@ -136,11 +138,9 @@ nav li.active a {
 }
 
 footer {
-  padding: 10px;
-  margin: 20px;
+  padding: 40px 0 ;
   font-size: 25px;
   font-weight: 700;
-  border-radius: 15px;
   background-color: #272142;
 }
 footer a {
@@ -152,18 +152,10 @@ footer a:hover {
 }
 .under-footer {
   font-size: 15px;
-  line-height: 10px;
-  text-align: center;
-  color: var(--main-font-color);
+  color: white;
+  margin-top: 10px;
 }
-.under-footer span {
-  font-weight: 700;
-  color: var(--branding-color);
-}
-.under-footer a {
-  text-decoration: none;
-  color: var(--branding-color);
-}
+
 
 @media (max-width: 900px) {
   nav {
@@ -222,10 +214,7 @@ footer a:hover {
     font-size: 15px;
   }
   .certificate {
-    border: 1px dashed #2721423a;
-    padding-top: 10px;
-    border-radius: 14px;
-    margin: 25px;
+    margin-bottom: 20px;
   }
   .company {
     font-size: 24px;
